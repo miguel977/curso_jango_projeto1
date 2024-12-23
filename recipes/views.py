@@ -7,9 +7,3 @@ def home(request):
     })
 
 
-def contato(request):
-    return render(request,'me_apague/temp.html')
-
-
-def sobre(request):
-    return HttpResponse('sobre')
